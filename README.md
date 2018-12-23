@@ -16,6 +16,7 @@
 
 The image is for running [snyk], snyk is installed in /app/ in case you need to customize the install before usage.
 The image is based on node:10.14-alpine
+This requires a local available docker service like `dind` or a shared docker socket, docker is installed in this container.
 
 ## Examples
 
@@ -31,7 +32,7 @@ snyk:
 
 For this example:
 
-- pipelinecomponents/php-linter:latest should be localy available
+- pipelinecomponents/php-linter:latest is the containeri to scan, and should be localy available
 - SNYK_TOKEN should be set as a secret variable in gitlab
 
 ## Versioning
