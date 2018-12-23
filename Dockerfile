@@ -4,6 +4,7 @@ WORKDIR /app/
 
 # Generic
 COPY app /app/
+RUN apk add --no-cache docker=18.06.1-r0
 
 # Node
 ENV PATH "$PATH:/app/node_modules/.bin/"
