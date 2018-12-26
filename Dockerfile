@@ -11,6 +11,7 @@ ENV PATH "$PATH:/app/node_modules/.bin/"
 RUN yarn install --frozen-lockfile && yarn cache clean
 
 WORKDiR /code/
+WORKDIR /code/
 # Build arguments
 ARG BUILD_DATE
 ARG BUILD_REF
