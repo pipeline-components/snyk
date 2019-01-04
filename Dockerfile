@@ -12,8 +12,10 @@ RUN apk add --no-cache libltdl=2.4.6-r5 docker=18.06.1-r0 \
 ENV PATH "$PATH:/app/node_modules/.bin/"
 RUN yarn install --frozen-lockfile && yarn cache clean
 
-WORKDiR /code/
 WORKDIR /code/
+
+# Help with docker
+ENV DOCKER_HOST "tcp://docker:2375"
 # Build arguments
 ARG BUILD_DATE
 ARG BUILD_REF
