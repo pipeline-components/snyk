@@ -32,7 +32,7 @@ snyk:
 
 For this example:
 
-- pipelinecomponents/php-linter:latest is the containeri to scan, and should be localy available
+- pipelinecomponents/php-linter:latest is the container to scan, and should be localy available
 - SNYK_TOKEN should be set as a secret variable in gitlab
 
 ## Versioning
