@@ -9,7 +9,7 @@ WORKDIR /app/
 
 # Generic
 COPY app /app/
-RUN apk add --no-cache libltdl=2.4.6-r5 docker=18.09.8-r0 \
+RUN apk add --no-cache musl=1.1.20-r5 libltdl=2.4.6-r5 docker=18.09.8-r0 \
 	&& cp /usr/bin/docker /usr/local/bin/ \
 	&& apk del docker
 
