@@ -8,7 +8,7 @@ ENV DEFAULTCMD snyk
 WORKDIR /app/
 
 # Generic
-RUN apk add --no-cache libltdl=2.4.6-r6 docker=18.09.8-r0 \
+RUN apk add --no-cache libltdl=2.4.6-r7 docker=19.03.5-r0 \
 	&& cp /usr/bin/docker /usr/local/bin/ \
 	&& apk del docker
 COPY app /app/
