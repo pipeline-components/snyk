@@ -25,7 +25,7 @@ snyk:
   stage: linting
   variables:
     SNYK_TOKEN: my-secret-snyk-token
-  image: pipelinecomponents/snyk:latest
+  image: registry.gitlab.com/pipeline-components/snyk:latest
   script:
     - snyk test --docker pipelinecomponents/php-linter:latest --file=Dockerfile
 ```
