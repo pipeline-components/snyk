@@ -2439,10 +2439,10 @@ snyk-sbt-plugin@2.11.0:
     tree-kill "^1.2.2"
     tslib "^1.10.0"
 
-snyk-to-html@1.14.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-1.14.0.tgz#087bbf935f35d888757f7fe15431d208120cf38e"
-  integrity sha512-1THsnVfIW2jmpPO/VdI782kkWLzyvQynIXNOXNUEi2Y/f7TAbEDwSTofs85Xl820BxLSgu+BMresXjPvViF0cg==
+snyk-to-html@1.14.1:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-1.14.1.tgz#fb77d5dc366394b56cda2a91e0b9a864d17a0d11"
+  integrity sha512-i8SwBkLY10OaX72L3DPbGhCpBQNnjxTNaPdoSTUWVekronj61I25d0GRPQ42UD8c1PufJTNUi6oHqtS3vPibqQ==
   dependencies:
     "@snyk/lodash" "^4.17.15-patch"
     chalk "^2.4.2"
