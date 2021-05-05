@@ -1781,11 +1781,6 @@ lodash.difference@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
   integrity sha1-nMtOUF1Ia5FlE0V3KIWi3yf9AXw=
 
-lodash.endswith@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/lodash.endswith/-/lodash.endswith-4.2.1.tgz#fed59ac1738ed3e236edd7064ec456448b37bc09"
-  integrity sha1-/tWawXOO0+I27dcGTsRWRIs3vAk=
-
 lodash.filter@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.filter/-/lodash.filter-4.6.0.tgz#668b1d4981603ae1cc5a6fa760143e480b4c4ace"
@@ -2704,10 +2699,10 @@ snyk-cpp-plugin@2.2.1:
     hosted-git-info "^3.0.7"
     tslib "^2.0.0"
 
-snyk-docker-plugin@4.20.1:
-  version "4.20.1"
-  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.20.1.tgz#1f9cc5d0cf02055abde63cdfa6e2e20556fdbb57"
-  integrity sha512-qFExaxdu9bNgvkv5TCE/AOyCCOWjjFRuX3Dhf0TWbpj+TtzgpZj2nmi4AG3XiOBn1cQUZ7pCSHoy7bNJeyUBww==
+snyk-docker-plugin@4.20.2:
+  version "4.20.2"
+  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.20.2.tgz#6375eb262ae85cdcbccad5088b1836c686ab6462"
+  integrity sha512-cxRU6lNybAJgOs1RPDTk3fJh7rS0BkXSAw/8/GFGTeJlQ+dNhEnCWni7PKmaZT9phFNOqLQcDd8+oOZZB5UQnw==
   dependencies:
     "@snyk/dep-graph" "^1.28.0"
     "@snyk/rpm-parser" "^2.0.0"
@@ -2968,10 +2963,10 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.576.0:
-  version "1.576.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.576.0.tgz#5d192f634b990436121a71e84dd10a5da614e40b"
-  integrity sha512-HQL0X8BYtOsBBR56sZndZBPCxoJxMt8gsngMbZE4K2veJ+4pDkCKkeXjOJTnrHYUE5F5Z4i7UTUVS1zcEwpkrw==
+snyk@1.583.0:
+  version "1.583.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.583.0.tgz#ec16010aae7a7861baffa8951d7f3365d77c3c63"
+  integrity sha512-EMhNxF7mXJxwg6QM5udJ5Bsi1ZE/XJo2BMVpSiIYMFudds+GbP3WB8Bnj4oUepdCknTE45yVZZwZ0MsuVXwE7g==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
@@ -2995,7 +2990,6 @@ snyk@1.576.0:
     lodash.assign "^4.2.0"
     lodash.camelcase "^4.3.0"
     lodash.clonedeep "^4.5.0"
-    lodash.endswith "^4.2.1"
     lodash.flatten "^4.4.0"
     lodash.flattendeep "^4.4.0"
     lodash.get "^4.4.2"
@@ -3020,7 +3014,7 @@ snyk@1.576.0:
     semver "^6.0.0"
     snyk-config "4.0.0"
     snyk-cpp-plugin "2.2.1"
-    snyk-docker-plugin "4.20.1"
+    snyk-docker-plugin "4.20.2"
     snyk-go-plugin "1.17.0"
     snyk-gradle-plugin "3.14.4"
     snyk-module "3.1.0"
