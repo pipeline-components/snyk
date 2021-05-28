@@ -1,6 +1,6 @@
 FROM pipelinecomponents/base-entrypoint:0.4.0 as entrypoint
 
-FROM node:14.17.0-alpine
+FROM node:16.2.0-alpine3.13
 COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 ENV DEFAULTCMD snyk
@@ -8,7 +8,9 @@ ENV DEFAULTCMD snyk
 WORKDIR /app/
 
 # Generic
-RUN apk add --no-cache libltdl=2.4.6-r7 docker=19.03.5-r1 \
+# Adding dependencies
+# hadolint ignore=DL3018
+RUN apk add --no-cache libltdl docker \
 	&& cp /usr/bin/docker /usr/local/bin/ \
 	&& apk del docker
 COPY app /app/
