@@ -1454,7 +1454,7 @@ gunzip-maybe@^1.4.2:
     pumpify "^1.3.3"
     through2 "^2.0.3"
 
-handlebars@^4.7.3:
+handlebars@^4.7.7:
   version "4.7.7"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
   integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
@@ -2078,10 +2078,10 @@ make-dir@^3.0.0:
   dependencies:
     semver "^6.0.0"
 
-marked@^1.1.1:
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.9.tgz#53786f8b05d4c01a2a5a76b7d1ec9943d29d72dc"
-  integrity sha512-H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==
+marked@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.7.tgz#bc5b857a09071b48ce82a1f7304913a993d4b7d1"
+  integrity sha512-BJXxkuIfJchcXOJWTT2DOL+yFWifFv2yGYOUzvXg8Qz610QKw+sHCvTMYwA+qWGhlA2uivBezChZ/pBy1tWdkQ==
 
 matcher@^3.0.0:
   version "3.0.0"
@@ -2974,17 +2974,17 @@ snyk-sbt-plugin@2.11.0:
     tree-kill "^1.2.2"
     tslib "^1.10.0"
 
-snyk-to-html@1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-1.15.0.tgz#7a112b650d9b1b3e312850ee86addcf5cf943da2"
-  integrity sha512-KU4fjnLCZnZvMdzTl3Nsn2xvNfRjbw4ExBVGbrO1akUYw1tWa3m1OIgs3sziLrFkBKmWmqfXF0nEB/VUHfFNAA==
+snyk-to-html@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-2.0.0.tgz#0e45775d6ba04a7372a36ecbc731c37ad9de06da"
+  integrity sha512-p2toqneAf4mp9RRHNQZlKD0bgrmOeGhoZHj2lV9I9mTo4acY/LBEnh+IyiyHlgEs6YoxMcWEbjndgv86aKSIGQ==
   dependencies:
     "@snyk/lodash" "^4.17.15-patch"
     chalk "^2.4.2"
     commander "^4.1.1"
     debug "^4.1.1"
-    handlebars "^4.7.3"
-    marked "^1.1.1"
+    handlebars "^4.7.7"
+    marked "^2.0.7"
     moment "^2.24.0"
     source-map-support "^0.5.16"
 
