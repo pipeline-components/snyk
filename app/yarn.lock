@@ -74,10 +74,10 @@ has-flag@^3.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
   integrity sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
 
-marked@^2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.7.tgz#bc5b857a09071b48ce82a1f7304913a993d4b7d1"
-  integrity sha512-BJXxkuIfJchcXOJWTT2DOL+yFWifFv2yGYOUzvXg8Qz610QKw+sHCvTMYwA+qWGhlA2uivBezChZ/pBy1tWdkQ==
+marked@^4.0.12:
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.12.tgz#2262a4e6fd1afd2f13557726238b69a48b982f7d"
+  integrity sha512-hgibXWrEDNBWgGiK18j/4lkS6ihTe9sxtV4Q1OQppb/0zzyPSzoFANBa5MfsG/zgsWklmNnhm0XACZOH/0HBiQ==
 
 minimist@^1.2.5:
   version "1.2.5"
@@ -99,19 +99,20 @@ neo-async@^2.6.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-snyk-to-html@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-2.2.1.tgz#c89fc4067e7690cdc26f2fb09fab3d54660bf7bb"
-  integrity sha512-s4YwwP32IY9eCJ9WtFANYvaWmJhroAyzBPh1TWYDD439o4u1Lyebm2OINmkGklRRB1QZlQMMAScfI37H5RCGRw==
+snyk-to-html@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-2.2.2.tgz#8453fe6c5dc0f02db13cfdb21ad23098c8eaad64"
+  integrity sha512-0xU2c06exV7aEJnuUDcvPK9JSmn/HN5PHONwrAd98adGAeMf5IeV8esfIkOLww25UAhzH67KQ6B7eQTMN2e6aw==
   dependencies:
     "@snyk/lodash" "^4.17.15-patch"
     chalk "^2.4.2"
     commander "^4.1.1"
     debug "^4.1.1"
     handlebars "^4.7.7"
-    marked "^2.0.7"
+    marked "^4.0.12"
     moment "^2.24.0"
     source-map-support "^0.5.16"
+    uglify-js "^3.15.1"
 
 snyk@1.855.0:
   version "1.855.0"
@@ -142,6 +143,11 @@ uglify-js@^3.1.4:
   version "3.13.3"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.3.tgz#ce72a1ad154348ea2af61f50933c76cc8802276e"
   integrity sha512-otIc7O9LyxpUcQoXzj2hL4LPWKklO6LJWoJUzNa8A17Xgi4fOeDC8FBDOLHnC/Slo1CQgsZMcM6as0M76BZaig==
+
+uglify-js@^3.15.1:
+  version "3.15.2"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.15.2.tgz#1ed2c976f448063b1f87adb68c741be79959f951"
+  integrity sha512-peeoTk3hSwYdoc9nrdiEJk+gx1ALCtTjdYuKSXMTDqq7n1W7dHPqWDdSi+BPL0ni2YMeHD7hKUSdbj3TZauY2A==
 
 wordwrap@^1.0.0:
   version "1.0.0"
