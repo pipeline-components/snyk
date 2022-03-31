@@ -114,10 +114,10 @@ snyk-to-html@2.2.2:
     source-map-support "^0.5.16"
     uglify-js "^3.15.1"
 
-snyk@1.886.0:
-  version "1.886.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.886.0.tgz#08a4cc40df14a6c0b5a822b453e722329a0e5845"
-  integrity sha512-4pQWsxck0hJTyybuWkT4pBzzBBMOCTjrM6BsO7erg0yfnHtUtuhsqVsNODZ/Lhlny66wOT0YMXoD+5DkOVWBdQ==
+snyk@1.891.0:
+  version "1.891.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.891.0.tgz#9fd720e2a8d281636316dcf7da3982ba627d94f5"
+  integrity sha512-OfXdtHjHBXQvAA5fewDUKI8AWXD4tIw8WY5CytwSAoQ9kxXGuDQ5skWnUACWHB/3ica/LxOYNkqRbJ+fPhseYA==
 
 source-map-support@^0.5.16:
   version "0.5.19"
