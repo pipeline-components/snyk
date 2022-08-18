@@ -99,10 +99,10 @@ neo-async@^2.6.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-snyk-to-html@2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-2.3.4.tgz#aee262cca3ccb824974aaefbe5239cf823b48331"
-  integrity sha512-+j9WR9bst/XAx+tbOGav+Ur7OLXaDlDAEl4UhqaPJxHpalVawqjZH0FNtyzWqdwQWj5s+Pvrlr7SLqOlQHkOzA==
+snyk-to-html@2.3.5:
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-2.3.5.tgz#9cfd0566fd0bb3de9c055312c90c615d3fa10936"
+  integrity sha512-PFT4S0pw8RcTuOJk6K08KCrZ0ASFLwNKSeFttKRnFGEIFFLtKd5nDXqtYx9Jhypt0Fg3TPHbodok97JSn9ocZQ==
   dependencies:
     "@snyk/lodash" "^4.17.15-patch"
     chalk "^2.4.2"
