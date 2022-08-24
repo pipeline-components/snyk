@@ -8,8 +8,6 @@
 
 ## Docker status
 
-[![Docker Version][version-shield]][microbadger]
-[![Docker Layers][layers-shield]][microbadger]
 [![Docker Pulls][pulls-shield]][dockerhub]
 
 ## Usage
