@@ -98,15 +98,12 @@ SOFTWARE.
 [gitlabci]: https://gitlab.com/pipeline-components/snyk/commits/master
 [issue]: https://gitlab.com/pipeline-components/snyk/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
-[layers-shield]: https://images.microbadger.com/badges/image/pipelinecomponents/snyk.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
-[microbadger]: https://microbadger.com/images/pipelinecomponents/snyk
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [pulls-shield]: https://img.shields.io/docker/pulls/pipelinecomponents/snyk.svg
 [releases]: https://gitlab.com/pipeline-components/snyk/tags
 [repository]: https://gitlab.com/pipeline-components/snyk
 [semver]: http://semver.org/spec/v2.0.0.html
-[version-shield]: https://images.microbadger.com/badges/version/pipelinecomponents/snyk.svg
 
 [frenck]: https://github.com/frenck
 [hassio-addons]: https://github.com/hassio-addons
