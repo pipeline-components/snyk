@@ -330,10 +330,10 @@ snyk-to-html@2.5.0:
     source-map-support "^0.5.16"
     uglify-js "^3.15.1"
 
-snyk@1.1286.4:
-  version "1.1286.4"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1286.4.tgz#b60e1e6746debae8caf791dfbb6c2842ae3aea34"
-  integrity sha512-422uxqCFT9JP9C0vskLt5JNfQgWkUyn6F/NfXk3gOapZlqqKs5bZRd8LLYXX3vA2XfV0ThsfYpjRLwDGqRIq7Q==
+snyk@1.1289.0:
+  version "1.1289.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1289.0.tgz#a20a15a5e864c7ee16fee6bb3858ff99cb5ae2b2"
+  integrity sha512-TROGQWqdHVMH3YuhNtGBRGQ8JYhHoysR4e6gygKkIVAcExGhVj61sGw6ZdcQo7bu+HOAHf08jBQNZ+VaenMezA==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
