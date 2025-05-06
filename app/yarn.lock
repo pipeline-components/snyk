@@ -250,11 +250,6 @@ minimist@^1.2.5:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
-moment@^2.29.4:
-  version "2.30.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
-  integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
-
 ms@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
@@ -299,10 +294,10 @@ serialize-error@^7.0.1:
   dependencies:
     type-fest "^0.13.1"
 
-snyk-to-html@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-2.5.1.tgz#b0f4cb34ab1bd77cdbc602f2185b2f2b80d39663"
-  integrity sha512-qPTA0rqVklz8LYUqIZBeashcHazrAxxfkKl32Qcj3lAHPOFYbfer38gImJu8t7BxvfJKm4eDIk8iVuRhD6nv/w==
+snyk-to-html@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-2.6.0.tgz#6d69ca9bd4b7ec14427f9c18022e487519ff0df4"
+  integrity sha512-WV3sbgP28eKTwgzQ8UJCADAR7NaHSsmsFJbk1h/PRr+T/mwZKs7zhvFnuT66WyCbxhEb6Ay4ntdhfroRgLOh1Q==
   dependencies:
     chalk "^2.4.2"
     commander "^4.1.1"
@@ -311,7 +306,6 @@ snyk-to-html@2.5.1:
     lodash.isempty "^4.4.0"
     lodash.orderby "^4.6.0"
     marked "^4.0.12"
-    moment "^2.29.4"
     source-map-support "^0.5.16"
     uglify-js "^3.15.1"
 
