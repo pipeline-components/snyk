@@ -296,10 +296,10 @@ snyk-to-html@3.6.0:
     lodash.orderby "^4.6.0"
     marked "^4.0.12"
 
-snyk@1.1302.1:
-  version "1.1302.1"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1302.1.tgz#bbd8522699291ff605f6450748ca9174e2f5b509"
-  integrity sha512-RT85Pz4N36xma7Mcob0Jno5TXu22VbVoT+7mWHk2TVkBHqsMZ8sKW55X+r+LMaT8GwlC5+cYjzw2iuv1VcPZOg==
+snyk@1.1303.1:
+  version "1.1303.1"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1303.1.tgz#a6bc96254e977cfad40b90a24c97f0899f530e17"
+  integrity sha512-VJzv3rgdb9MNM/d6BlJFWrnxNaskUyHbOrWaujoXhnpTAccDgkF6G60v5VIrjey3KHLpwZxMA2akoyB1zvfFVw==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
