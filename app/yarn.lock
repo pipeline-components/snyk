@@ -218,9 +218,9 @@ lodash.isempty@^4.4.0:
   integrity sha512-oKMuF3xEeqDltrGMfDxAPGIVMSSRv8tbRSODbrs4KGsRRLEhrW8N8Rd4DRgB2+621hY8A8XwwrTVhXWpxFvMzg==
 
 lodash.orderby@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.orderby/-/lodash.orderby-4.6.0.tgz#e697f04ce5d78522f54d9338b32b81a3393e4eb3"
-  integrity sha512-T0rZxKmghOOf5YPnn8EY5iLYeWCpZq8G41FfqoVHH5QDTAFaghJRmAdLiadEDq+ztgM2q5PjA+Z1fOwGrLgmtg==
+  version "4.18.0"
+  resolved "https://registry.yarnpkg.com/lodash.orderby/-/lodash.orderby-4.18.0.tgz#c2ba7fd3680586ccc96e33e47c1b5e1107e95ca5"
+  integrity sha512-XSSpOxgihAM5kawpay9vl0e9r73l+LJIh03NzJBF33DWb8XgSM9Bvl1mEpA0ydrvoOeTVbNZBo2gY7zfw22EQQ==
 
 marked@^4.0.12:
   version "4.3.0"
