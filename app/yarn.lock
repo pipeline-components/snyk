@@ -164,7 +164,7 @@ gopd@^1.0.1:
   resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.2.0.tgz#89f56b8217bdbc8802bd299df6d7f1081d7e51a1"
   integrity sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==
 
-handlebars@^4.7.8:
+handlebars@^4.7.9:
   version "4.7.9"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.9.tgz#6f139082ab58dc4e5a0e51efe7db5ae890d56a0f"
   integrity sha512-4E71E0rpOaQuJR2A3xDZ+GM1HyWYv1clR58tC8emQNeQe3RH7MAzSbat+V0wG78LQBo6m6bzSG/L4pBuCsgnUQ==
@@ -283,15 +283,15 @@ serialize-error@^7.0.1:
   dependencies:
     type-fest "^0.13.1"
 
-snyk-to-html@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-3.6.0.tgz#97fb397527273cee59ec5e808467c27fbf9f4d81"
-  integrity sha512-3nbozRChcyukyGG8MtcsV1wSAKgPOAf+jAM8GA1WBrW3sZ3anX61aNSw9RDt1Glint4TDZxTCZg5P5HCO/93Ag==
+snyk-to-html@3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-3.7.1.tgz#a7267823cdcfb8718bf5205744c3e72bc1b1bf35"
+  integrity sha512-z3R/Cn8E7zheRh5HrMscM+7AWoafwrNB47LhN6a0xjw7/3TpceinfqokIMSo8SiZzy0C0OisgmZYCgiqfszAOw==
   dependencies:
     chalk "4.1.2"
     commander "^14.0.0"
     debug "^4.4.1"
-    handlebars "^4.7.8"
+    handlebars "^4.7.9"
     lodash.isempty "^4.4.0"
     lodash.orderby "^4.6.0"
     marked "^4.0.12"
