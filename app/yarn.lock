@@ -283,10 +283,10 @@ serialize-error@^7.0.1:
   dependencies:
     type-fest "^0.13.1"
 
-snyk-to-html@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-3.7.2.tgz#a29427812d4d2ae676427310138b8305495fc10e"
-  integrity sha512-Tpkw49WDMxMke0+nxn56Xe/bmc8fOK28JWIoVZ++fPZCmZlaMqQcaRRvQtaz1WRxBvqtPYidfeVLj8/SyofDXw==
+snyk-to-html@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/snyk-to-html/-/snyk-to-html-3.7.3.tgz#602be231d8c78cd7ad72c8211ac421c83aa18f78"
+  integrity sha512-hzujQsqsjmChUc4bzxjbHdZFsWzRnwcoj73HNHzcqm7HvmTRqWK4+hfy+gVh5gpOIXC6KFIje98QV/giWNHAgQ==
   dependencies:
     chalk "4.1.2"
     commander "^14.0.0"
