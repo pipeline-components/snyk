@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "snyk": "1.1305.1",
+    "snyk": "1.1305.2",
     "snyk-to-html": "3.7.3"
   }
 }
