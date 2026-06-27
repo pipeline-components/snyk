@@ -1,6 +1,6 @@
 FROM pipelinecomponents/base-entrypoint:0.5.0 as entrypoint
 
-FROM node:24.17.0-alpine3.24
+FROM node:24.18.0-alpine3.24
 COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 ENV DEFAULTCMD snyk
